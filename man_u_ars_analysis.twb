@@ -1,0 +1,1414 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ARS VS MUN (1-Arsenal_ManchesterUnited)' inline='true' name='federated.0z63qps1x9hg1e107j5rp0d8ek7d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1-Arsenal_ManchesterUnited' name='excel-direct.1yfp2kx0ph7thy10gergo0sarvdl'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/xrist/OneDrive/Documents/Workearly/TableAu/1-Arsenal_ManchesterUnited.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1yfp2kx0ph7thy10gergo0sarvdl' name='ARS VS MUN' table='[&apos;ARS VS MUN$&apos;]' type='table'>
+          <columns gridOrigin='A1:AI28:no:A1:AI28:0' header='yes' outcome='6'>
+            <column datatype='string' name='Players' ordinal='0' />
+            <column datatype='string' name='Team' ordinal='1' />
+            <column datatype='string' name='Position' ordinal='2' />
+            <column datatype='integer' name='Minutes played' ordinal='3' />
+            <column datatype='integer' name='Goals' ordinal='4' />
+            <column datatype='integer' name='Assists' ordinal='5' />
+            <column datatype='integer' name='Total Shots' ordinal='6' />
+            <column datatype='integer' name='Total Passes' ordinal='7' />
+            <column datatype='integer' name='Accurate Passes' ordinal='8' />
+            <column datatype='integer' name='Accurate Crosses' ordinal='9' />
+            <column datatype='integer' name='Accurate Long balls' ordinal='10' />
+            <column datatype='integer' name='Chances Created' ordinal='11' />
+            <column datatype='integer' name='Chances missed' ordinal='12' />
+            <column datatype='integer' name='Touches' ordinal='13' />
+            <column datatype='integer' name='Succesfull Dribbles' ordinal='14' />
+            <column datatype='integer' name='Passes into final third' ordinal='15' />
+            <column datatype='integer' name='Dispossessed' ordinal='16' />
+            <column datatype='integer' name='Offsides' ordinal='17' />
+            <column datatype='integer' name='Tackles won' ordinal='18' />
+            <column datatype='integer' name='Clearances' ordinal='19' />
+            <column datatype='integer' name='Interceptions' ordinal='20' />
+            <column datatype='integer' name='Blocked Shots' ordinal='21' />
+            <column datatype='integer' name='Recoveries' ordinal='22' />
+            <column datatype='integer' name='Dribbled past' ordinal='23' />
+            <column datatype='integer' name='Ground duels won' ordinal='24' />
+            <column datatype='integer' name='Aerial DuelsWon' ordinal='25' />
+            <column datatype='integer' name='Was fouled' ordinal='26' />
+            <column datatype='integer' name='Fouls commited' ordinal='27' />
+            <column datatype='integer' name='Yellow Card' ordinal='28' />
+            <column datatype='integer' name='Red Card' ordinal='29' />
+            <column datatype='integer' name='Saves' ordinal='30' />
+            <column datatype='integer' name='Errors led to Goal' ordinal='31' />
+            <column datatype='integer' name='Goals Conceded' ordinal='32' />
+            <column datatype='integer' name='Diving Save' ordinal='33' />
+            <column datatype='integer' name='Saves inside the box' ordinal='34' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AI28:no:A1:AI28:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Players</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Players]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Players</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEL_RCY_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEL_RCY_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEL_RCY_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minutes played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minutes played]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Minutes played</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Goals</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Assists]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Assists</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Shots]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Total Shots</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Passes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Passes]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Total Passes</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accurate Passes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accurate Passes]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Accurate Passes</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accurate Crosses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accurate Crosses]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Accurate Crosses</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Accurate Long balls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Accurate Long balls]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Accurate Long balls</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chances Created</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chances Created]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Chances Created</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chances missed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chances missed]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Chances missed</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Touches</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Touches]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Touches</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Succesfull Dribbles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Succesfull Dribbles]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Succesfull Dribbles</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passes into final third</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Passes into final third]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Passes into final third</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dispossessed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dispossessed]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Dispossessed</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offsides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offsides]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Offsides</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tackles won]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Tackles won</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clearances]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Clearances</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interceptions]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Interceptions</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blocked Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Blocked Shots]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Blocked Shots</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recoveries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recoveries]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Recoveries</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dribbled past</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dribbled past]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Dribbled past</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ground duels won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ground duels won]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Ground duels won</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aerial DuelsWon</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aerial DuelsWon]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Aerial DuelsWon</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Was fouled</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Was fouled]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Was fouled</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls commited</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls commited]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Fouls commited</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Card</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Card]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Yellow Card</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Card</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Card]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Red Card</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saves]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Saves</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Errors led to Goal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Errors led to Goal]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Errors led to Goal</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals Conceded</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals Conceded]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Goals Conceded</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diving Save</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diving Save]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Diving Save</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saves inside the box</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Saves inside the box]</local-name>
+            <parent-name>[ARS VS MUN]</parent-name>
+            <remote-alias>Saves inside the box</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ARS VS MUN' datatype='table' name='[__tableau_internal_object_id__].[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/xrist/AppData/Local/Temp/TableauTemp/#TableauTemp_1xjkkge19uuckv184561i0dkugil.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/18/2025 12:44:25 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Players</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Players]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Players</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Team</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Team]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Team</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Position</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Position]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Position</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Minutes played</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Minutes played]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Minutes played</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Goals</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Goals]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Goals</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Assists</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Assists]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Assists</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Shots</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Shots]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Shots</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Passes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Passes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Passes</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Accurate Passes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Accurate Passes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Accurate Passes</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Accurate Crosses</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Accurate Crosses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Accurate Crosses</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Accurate Long balls</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Accurate Long balls]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Accurate Long balls</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Chances Created</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Chances Created]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Chances Created</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Chances missed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Chances missed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Chances missed</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Touches</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Touches]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Touches</remote-alias>
+              <ordinal>13</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Succesfull Dribbles</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Succesfull Dribbles]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Succesfull Dribbles</remote-alias>
+              <ordinal>14</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Passes into final third</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Passes into final third]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Passes into final third</remote-alias>
+              <ordinal>15</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dispossessed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dispossessed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dispossessed</remote-alias>
+              <ordinal>16</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Offsides</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Offsides]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Offsides</remote-alias>
+              <ordinal>17</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tackles won</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tackles won]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tackles won</remote-alias>
+              <ordinal>18</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Clearances</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Clearances]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Clearances</remote-alias>
+              <ordinal>19</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Interceptions</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Interceptions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Interceptions</remote-alias>
+              <ordinal>20</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blocked Shots</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Blocked Shots]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Blocked Shots</remote-alias>
+              <ordinal>21</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Recoveries</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Recoveries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Recoveries</remote-alias>
+              <ordinal>22</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dribbled past</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Dribbled past]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dribbled past</remote-alias>
+              <ordinal>23</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ground duels won</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ground duels won]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ground duels won</remote-alias>
+              <ordinal>24</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Aerial DuelsWon</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Aerial DuelsWon]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Aerial DuelsWon</remote-alias>
+              <ordinal>25</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Was fouled</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Was fouled]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Was fouled</remote-alias>
+              <ordinal>26</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fouls commited</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Fouls commited]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fouls commited</remote-alias>
+              <ordinal>27</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Yellow Card</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Yellow Card]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Yellow Card</remote-alias>
+              <ordinal>28</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Red Card</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Red Card]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Red Card</remote-alias>
+              <ordinal>29</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saves</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Saves]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saves</remote-alias>
+              <ordinal>30</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Errors led to Goal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Errors led to Goal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Errors led to Goal</remote-alias>
+              <ordinal>31</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Goals Conceded</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Goals Conceded]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Goals Conceded</remote-alias>
+              <ordinal>32</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Diving Save</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Diving Save]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Diving Save</remote-alias>
+              <ordinal>33</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Saves inside the box</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Saves inside the box]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Saves inside the box</remote-alias>
+              <ordinal>34</ordinal>
+              <family>ARS VS MUN</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Greece&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='ARS VS MUN' id='ARS VS MUN_1D2A92859AF6439C9A6003C0D8C958EE'>
+            <properties context=''>
+              <relation connection='excel-direct.1yfp2kx0ph7thy10gergo0sarvdl' name='ARS VS MUN' table='[&apos;ARS VS MUN$&apos;]' type='table'>
+                <columns gridOrigin='A1:AI28:no:A1:AI28:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Players' ordinal='0' />
+                  <column datatype='string' name='Team' ordinal='1' />
+                  <column datatype='string' name='Position' ordinal='2' />
+                  <column datatype='integer' name='Minutes played' ordinal='3' />
+                  <column datatype='integer' name='Goals' ordinal='4' />
+                  <column datatype='integer' name='Assists' ordinal='5' />
+                  <column datatype='integer' name='Total Shots' ordinal='6' />
+                  <column datatype='integer' name='Total Passes' ordinal='7' />
+                  <column datatype='integer' name='Accurate Passes' ordinal='8' />
+                  <column datatype='integer' name='Accurate Crosses' ordinal='9' />
+                  <column datatype='integer' name='Accurate Long balls' ordinal='10' />
+                  <column datatype='integer' name='Chances Created' ordinal='11' />
+                  <column datatype='integer' name='Chances missed' ordinal='12' />
+                  <column datatype='integer' name='Touches' ordinal='13' />
+                  <column datatype='integer' name='Succesfull Dribbles' ordinal='14' />
+                  <column datatype='integer' name='Passes into final third' ordinal='15' />
+                  <column datatype='integer' name='Dispossessed' ordinal='16' />
+                  <column datatype='integer' name='Offsides' ordinal='17' />
+                  <column datatype='integer' name='Tackles won' ordinal='18' />
+                  <column datatype='integer' name='Clearances' ordinal='19' />
+                  <column datatype='integer' name='Interceptions' ordinal='20' />
+                  <column datatype='integer' name='Blocked Shots' ordinal='21' />
+                  <column datatype='integer' name='Recoveries' ordinal='22' />
+                  <column datatype='integer' name='Dribbled past' ordinal='23' />
+                  <column datatype='integer' name='Ground duels won' ordinal='24' />
+                  <column datatype='integer' name='Aerial DuelsWon' ordinal='25' />
+                  <column datatype='integer' name='Was fouled' ordinal='26' />
+                  <column datatype='integer' name='Fouls commited' ordinal='27' />
+                  <column datatype='integer' name='Yellow Card' ordinal='28' />
+                  <column datatype='integer' name='Red Card' ordinal='29' />
+                  <column datatype='integer' name='Saves' ordinal='30' />
+                  <column datatype='integer' name='Errors led to Goal' ordinal='31' />
+                  <column datatype='integer' name='Goals Conceded' ordinal='32' />
+                  <column datatype='integer' name='Diving Save' ordinal='33' />
+                  <column datatype='integer' name='Saves inside the box' ordinal='34' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ARS VS MUN (1-Arsenal_ManchesterUnited)' name='federated.0z63qps1x9hg1e107j5rp0d8ek7d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z63qps1x9hg1e107j5rp0d8ek7d'>
+            <column datatype='integer' name='[Blocked Shots]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Players]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position]' role='dimension' type='nominal' />
+            <column-instance column='[Players]' derivation='None' name='[none:Players:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Position]' derivation='None' name='[none:Position:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Blocked Shots]' derivation='Sum' name='[sum:Blocked Shots:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Players:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[sum:Blocked Shots:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Position:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Players:nk]</rows>
+        <cols>[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[sum:Blocked Shots:qk]</cols>
+      </table>
+      <simple-id uuid='{3275CB6E-686E-43FD-89F8-550D925C78E2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Position:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Players:nk]</field>
+            <field>[federated.0z63qps1x9hg1e107j5rp0d8ek7d].[none:Position:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{51657BE3-4FF8-4FD6-8D3C-ED8162431552}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
